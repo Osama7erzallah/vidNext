@@ -1,0 +1,1367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- bootstrap 5.3 -->
+    <link rel="stylesheet" href="vendeor/bootsrtap/bootstrap.min.css" />
+    <link rel="stylesheet" href="vendeor/animate.min.css" />
+
+    <!-- fontwesome 6.4 -->
+    <link rel="stylesheet" href="vendeor/fontawesome/all.min.css" />
+
+
+    <!-- myCss -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <link rel="stylesheet" href="./vendeor/mySlider/mySlider.css">
+
+    <title >vidNext</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="assets/img/logo.png" alt=",logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">ABOUT</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-auto-close="outside"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            PAGES
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Testimonials</a></li>
+                            <li class="dropend "><a href="" class="dropdown-item dropdown-toggle"
+                                    data-bs-toggle="dropdown">Portfolio </a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item">
+                                        <a href="portfolio-columns-two.html" class="nav-link">Portfolio Columns Two</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="portfolio-columns-three.html" class="nav-link">Portfolio Columns
+                                            Three</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="portfolio-columns-four.html" class="nav-link">Portfolio Columns
+                                            Four</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="portfolio-details.html" class="nav-link">Portfolio Details</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Team</a></li>
+                            <li class="dropend "><a href="" class="dropdown-item dropdown-toggle"
+                                    data-bs-toggle="dropdown">USER </a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item">
+                                        <a href="my-account.html" class="nav-link">My Account</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="log-in.html" class="nav-link">Log In</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="sign-in.html" class="nav-link">Sign In</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="recover-password.html" class="nav-link active">Recover Password</a>
+                                    </li>
+                                </ul>
+
+
+                            </li>
+                            <li><a class="dropdown-item" href="#">FAQ</a></li>
+                            <li><a class="dropdown-item" href="#">Coming Soon</a></li>
+                            <li><a class="dropdown-item" href="#">404 Error Page</a></li>
+                        </ul>
+                    </li>
+
+
+
+                    <li class="nav-item dropdown">
+
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            SHOP
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Shop</a></li>
+                            <li><a class="dropdown-item" href="#">Cart</a></li>
+                            <li><a class="dropdown-item" href="#">Checkout</a></li>
+                            <li><a class="dropdown-item" href="#">Product Details</a></li>
+                            <li><a class="dropdown-item" href="#">Wishlist</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            BLOG
+                            <!-- <i class="fa-solid fa-chevron-down "></i> -->
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Blog Grid</a></li>
+                            <li><a class="dropdown-item" href="#">Blog Left Sidebar</a></li>
+                            <li><a class="dropdown-item" href="#">Blog Right Sidebar</a></li>
+                            <li><a class="dropdown-item" href="#">Blog Details</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CONTACT</a>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="others-option">
+                <form class="search-form">
+                    <input class="form-control" name="search" placeholder="SEARCH" type="text" fdprocessedid="fz89t">
+                    <button class="search-button" type="submit" fdprocessedid="qa6eto">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </form>
+
+                <div class="cart-icon">
+                    <a href="cart.html">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span>3</span>
+                    </a>
+                </div>
+
+                <div class="menu-icon">
+                    <a href="#" class="burger-menu">
+                        <i class="fa-solid fa-bars"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" >
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1">01</button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2">02</button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3">03</button>
+
+            </div>
+            
+            <div class="social-wrap">
+                <ul>
+                    <li class="follow-us">
+                        Follow Us:
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/img/slider-img/1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption  d-md-block one">
+                        <h1>We Make A Awesome Branded Videos</h1>
+                        <p>VidNext is a high-quality video production house!</p>
+                        <div class="slider-btn">
+                            <a href="about.html" class="">
+                                View More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/slider-img/2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption  d-md-block two">
+                        <h1>We Work Globally Brilliantly Done</h1>
+                        <p>VidNext is a high-quality video production house!</p>
+                        <div class="slider-btn">
+                            <a href="about.html" class="">
+                                View More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/slider-img/3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption  d-md-block three">
+                        <h1>Introducing The Next Level Of Video Production</h1>
+                        <p>VidNext is a high-quality video production house!</p>
+                        <div class="slider-btn">
+                            <a href="about.html" class="">
+                                View More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+
+    <div class="about ptb-100">
+        <div class="container">
+            <div class="all-about-content">
+                <div class="row">
+
+                    <div class="col-lg-8">
+                        <div class="about-content">
+                            <span>Vidnext Bio</span>
+                            <h2>We Are A Creative Video Production Company</h2>
+                            <p>Video production work with producing video content. It is the analogical of film making,
+                                but the images are
+                                digitally recorded instead of film stock. There are three levels of video production:
+                                production, pre-production
+                                and post-production the images are digitally recorded instead of film stock producing
+                                video content. It is the
+                            </p>
+
+                            <a href="about.html" class="default-btn">
+                                Learn More
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="about-img">
+                            <img src="assets/img/about/about-img.jpg" alt="Image">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="video-setion ptb-100">
+        <div class="container">
+
+            <div class="video">
+                <div class="video-img">
+                    <img src="assets/img/video/video-created-img.jpg" alt="video img">
+                    <div class="video-logo">
+
+                        <a href="https://www.youtube.com/watch?v=dkTYpP6eec0" target="_blank" class="popup-youtube">
+                            <i class="fa-regular fa-circle-play"></i>
+                        </a>
+
+                    </div>
+                    <h2>Video Created By <span>Vidnext</span> <span>osama</span></h2>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="what-we-do ptb-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="what-we-do-content">
+                        <span>What We Do</span>
+                        <h2>Video Solution Every Stage</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore
+                            magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
+                            accumsan lacus vel
+                            facilisis.</p>
+
+                        <div class="brands">
+                            <div class="row">
+                                <div class="col-lg-4 col-sm-6">
+                                    <div class="brand">
+                                        <a href="#">
+                                            <img src="assets/img/we-do/1.png" alt="Image">
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-sm-6">
+                                    <div class="brand">
+                                        <a href="#">
+                                            <img src="assets/img/we-do/2.png" alt="Image">
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0">
+                                    <div class="brand">
+                                        <a href="#">
+                                            <img src="assets/img/we-do/3.png" alt="Image">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <a href="contact.html" class="default-btn">
+                            Contact Us
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6 pt">
+
+                    <div class="row">
+                        <div class="col-lg-6 col-sm-6">
+                            <div class="what-we-do-item mt-4">
+                                <i class="fa-solid fa-photo-film"></i>
+                                <h3>Pre-Production</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-sm-6">
+                            <div class="what-we-do-item">
+                                <i class="fa-solid fa-clapperboard"></i>
+                                <h3>Production</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-sm-6">
+                            <div class="what-we-do-item">
+                                <i class="fa-solid fa-podcast"></i>
+                                <h3>Post-Production</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-sm-6">
+                            <div class="what-we-do-item mt-mince-30">
+                                <i class="fa-solid fa-people-carry-box"></i>
+                                <h3>Conversion</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <section class="testimonial ptb-100">
+        <div class="container">
+            <div id="carouselExampleCaptions2" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+
+                        <i class="fa-solid fa-quote-left"></i>
+                        <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.”
+                        </p>
+
+                        <h3>Kara Goldberg</h3>
+                        <span>Director of Festwork</span>
+
+
+                    </div>
+                    <div class="carousel-item">
+                        <i class="fa-solid fa-quote-left"></i>
+                        <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.”
+                        </p>
+
+                        <h3>Kara Goldberg</h3>
+                        <span>Director of Festwork</span>
+
+                    </div>
+                    <div class="carousel-item">
+                        <i class="fa-solid fa-quote-left"></i>
+                        <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.”
+                        </p>
+
+                        <h3>Kara Goldberg</h3>
+                        <span>Director of Festwork</span>
+
+                    </div>
+
+                </div>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <section class="products-area ptb-100">
+        <div class="container">
+            <div class="section-title">
+                <span>Products</span>
+                <h2>Award Winning Movies</h2>
+            </div>
+
+
+            <div id="carouselExampleCaptions3" class="carousel slide" data-bs-ride="carousel">
+
+                <div class="next-prev">
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions3"
+                        data-bs-slide="prev">
+                        <div class="carousel-my-icon">
+
+                            <i class="fa-solid fa-angle-left "></i>
+                        </div>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                    </div>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions3"
+                        data-bs-slide="next">
+                        <div class="carousel-my-icon">
+                            <i class="fa-solid fa-angle-right"></i>
+                        </div>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <div class="pad">
+                    <div class="row osama">
+                        <div class="col-lg-3 ">
+                            <h3>2000</h3>
+                        </div>
+                        <div class="col-lg-3 ">
+                            <h3>2001</h3>
+                        </div>
+                        <div class="col-lg-3 ">
+                            <h3>2002</h3>
+                        </div>
+                        <div class="col-lg-3 ">
+                            <h3>2003</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-inner pt-70">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="products">
+                                    <img src="assets/img/products-img.jpg" class="d-block w-100" alt="images">
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="products-content">
+                                    <span>Film Festival</span>
+                                    <h2>Award Winning Movies “Once Upon a Time”</h2>
+                                    <p>Video production work with producing video content. It is the analogical of film
+                                        making, but the images are
+                                        digitally recorded instead of film stock. There are three levels of video
+                                        production: production,
+                                        pre-production and post-production the images are.</p>
+
+                                    <a href="about.html" class="default-btn">
+                                        Learn More
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="products">
+                                    <img src="assets/img/products-img-2.jpg" class="d-block w-100" alt="images">
+                                </div>
+
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="products-content">
+                                    <span>Vidnext Bio</span>
+                                    <h2>Award Winning Movies “Once Upon a Time”</h2>
+                                    <p>Video production work with producing video content. It is the analogical of film
+                                        making, but the images are
+                                        digitally recorded instead of film stock. There are three levels of video
+                                        production: production,
+                                        pre-production and post-production the images are.</p>
+
+                                    <a href="about.html" class="default-btn">
+                                        Learn More
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="products">
+                                    <img src="assets/img/products-img-3.jpg" class="d-block w-100" alt="images">
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="products-content">
+                                    <span>Vidnext Bio</span>
+                                    <h2>Award Winning Movies “Once Upon a Time”</h2>
+                                    <p>Video production work with producing video content. It is the analogical of film
+                                        making, but the images are
+                                        digitally recorded instead of film stock. There are three levels of video
+                                        production: production,
+                                        pre-production and post-production the images are.</p>
+
+                                    <a href="about.html" class="default-btn">
+                                        Learn More
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="products">
+                                    <img src="assets/img/products-img-4.jpg" class="d-block w-100" alt="images">
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="products-content">
+                                    <span>Vidnext Bio</span>
+                                    <h2>Award Winning Movies “Once Upon a Time”</h2>
+                                    <p>Video production work with producing video content. It is the analogical of film
+                                        making, but the images are
+                                        digitally recorded instead of film stock. There are three levels of video
+                                        production: production,
+                                        pre-production and post-production the images are.</p>
+
+                                    <a href="about.html" class="default-btn">
+                                        Learn More
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="get-in-touch ptb-100">
+        <div class="container">
+            <div class="get-in-touch-content">
+                <h2>Did You Like Our Work?</h2>
+                <h3>Get In Touch Today!</h3>
+
+                <a href="contact.html" class="default-btn">
+                    Contact Us
+                </a>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="LATEST-TRAILEr ptb-100">
+        <div class="container">
+            <div class="row align-items-center">
+
+                <div class="col-lg-6">
+                    <div class="latest-trailer-content">
+                        <span>Latest Trailer</span>
+                        <h2>Upcoming Movies By Our Production</h2>
+
+                        <p>Video production work with producing video content. It is the analogical of film making, but
+                            the images are
+                            digitally recorded instead of film stock. There are three levels of video production:
+                            production, pre-production
+                            and post-production.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+
+                    <div id="carouselExampleIndicators3" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-lg-6 col-sm-6 col-xs-6">
+                                        <div class="hov">
+                                            <img src="assets/img/LATEST-TRAILER/1.jpg" class="d-block w-100"
+                                                alt="movie">
+                                            <div class="video-button">
+                                                <a href="https://www.youtube.com/watch?v=2KDUtAR06UI"
+                                                    class="video-btn popup-youtube">
+                                                    <i class="fa-solid fa-play"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-sm-6 col-xs-6">
+                                        <div class="hov">
+                                            <img src="assets/img/LATEST-TRAILER/2.jpg" class="d-block w-100"
+                                                alt="movie">
+
+                                            <div class="video-button">
+                                                <a href="https://www.youtube.com/watch?v=2KDUtAR06UI"
+                                                    class="video-btn popup-youtube">
+                                                    <i class="fa-solid fa-play"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-lg-6 col-sm-6 col-xs-6">
+
+                                        <div class="hov">
+                                            <img src="assets/img/LATEST-TRAILER/3.jpg" class="d-block w-100"
+                                                alt="movie">
+
+                                            <div class="video-button">
+                                                <a href="https://www.youtube.com/watch?v=2KDUtAR06UI"
+                                                    class="video-btn popup-youtube">
+                                                    <i class="fa-solid fa-play"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-sm-6 col-xs-6">
+                                        <div class="hov">
+                                            <img src="assets/img/LATEST-TRAILER/4.jpg" class="d-block w-100"
+                                                alt="movie">
+
+                                            <div class="video-button">
+                                                <a href="https://www.youtube.com/watch?v=2KDUtAR06UI"
+                                                    class="video-btn popup-youtube">
+                                                    <i class="fa-solid fa-play"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-lg-6 col-sm-6 col-xs-6">
+                                        <div class="hov">
+                                            <img src="assets/img/LATEST-TRAILER/5.jpg" class="d-block w-100"
+                                                alt="movie">
+
+                                            <div class="video-button">
+                                                <a href="https://www.youtube.com/watch?v=2KDUtAR06UI"
+                                                    class="video-btn popup-youtube">
+                                                    <i class="fa-solid fa-play"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-sm-6 col-xs-6">
+                                        <div class="hov">
+                                            <img src="assets/img/LATEST-TRAILER/6.jpg" class="d-block w-100"
+                                                alt="movie">
+
+                                            <div class="video-button">
+                                                <a href="https://www.youtube.com/watch?v=2KDUtAR06UI"
+                                                    class="video-btn popup-youtube">
+                                                    <i class="fa-solid fa-play"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </section>
+
+    <section class="exclusive-hop ptb-100">
+        <div class="container">
+            <div class="section-title white-title">
+                <span>Exclusive shop</span>
+                <h2>Collect Your Movies Now!</h2>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="exclusive-img">
+                        <img src="assets/img/exclusive-hop-img-1.jpg" alt="Image">
+
+                        <div class="exclusive-img-2">
+                            <img src="assets/img/exclusive-hop-img-2.png" alt="Image">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="exclusive-video-list">
+                        <div class="row">
+                            <div class="col-lg-3 pr-0">
+                                <div class="exclusive-list-img bg-1"></div>
+                            </div>
+
+                            <div class="col-lg-9">
+                                <div class="exclusive-text">
+                                    <h3>Deep sea</h3>
+                                    <span><del>$89.00</del> $59.00</span>
+                                    <ul>
+                                        <li>Director: Peter Spider</li>
+                                        <li>Release: 01-01-2018</li>
+                                    </ul>
+
+                                    <a href="#" class="default-btn">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                        Add To Cart
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-3 pr-0">
+                                <div class="exclusive-list-img bg-2"></div>
+                            </div>
+
+                            <div class="col-lg-9">
+                                <div class="exclusive-text">
+                                    <h3>Deep sea</h3>
+                                    <span><del>$89.00</del> $59.00</span>
+                                    <ul>
+                                        <li>Director: Peter Spider</li>
+                                        <li>Release: 01-01-2018</li>
+                                    </ul>
+
+                                    <a href="#" class="default-btn">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                        Add To Cart
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row mb-0">
+                            <div class="col-lg-3 pr-0">
+                                <div class="exclusive-list-img bg-3"></div>
+                            </div>
+
+                            <div class="col-lg-9">
+                                <div class="exclusive-text">
+                                    <h3>Deep sea</h3>
+                                    <span><del>$89.00</del> $59.00</span>
+                                    <ul>
+                                        <li>Director: Peter Spider</li>
+                                        <li>Release: 01-01-2018</li>
+                                    </ul>
+
+                                    <a href="#" class="default-btn">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                        Add To Cart
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="team ptb-100">
+        <div class="overh container-fluid p-0">
+            <div class="section-title">
+                <span>Film Makers</span>
+                <h2>Meet The Team</h2>
+            </div>
+
+            <div class=" row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+                <div class="team-img">
+                    <div class="col">
+                        <div class="imges">
+                            <img src="assets/img/team/1.jpg" alt="team">
+                            <ul class="social">
+                                <li>
+                                    <a href="#" target="_blank">
+                                        <i class="fa-brands fa-twitter"></i>
+
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" target="_blank">
+                                        <i class="fa-brands fa-instagram"></i>
+
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" target="_blank">
+                                        <i class="fa-brands fa-facebook"></i>
+
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="team-content">
+                            <div class="team-content">
+                                <h3>Mike Tucker</h3>
+                                <span>Cinematographer</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="team-img">
+                    <div class="col">
+                        <div class="imges">
+                            <img src="assets/img/team/2.jpg" alt="team">
+                            <ul class="social">
+                                <li>
+                                    <a href="#" target="_blank">
+                                        <i class="fa-brands fa-twitter"></i>
+
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" target="_blank">
+                                        <i class="fa-brands fa-instagram"></i>
+
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" target="_blank">
+                                        <i class="fa-brands fa-facebook"></i>
+
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="team-content">
+                            <div class="team-content">
+                                <h3>Eldon B. Rice</h3>
+                                <span>Movie Composer</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="team-img">
+                    <div class="col">
+                        <div class="imges">
+                            <img src="assets/img/team/3.jpg" alt="team">
+                            <ul class="social">
+                                <li>
+                                    <a href="#" target="_blank">
+                                        <i class="fa-brands fa-twitter"></i>
+
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" target="_blank">
+                                        <i class="fa-brands fa-instagram"></i>
+
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" target="_blank">
+                                        <i class="fa-brands fa-facebook"></i>
+
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="team-content">
+                            <div class="team-content">
+                                <h3>Mike Tucker</h3>
+                                <span>Cinematographer</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="team-img">
+                    <div class="col">
+                        <div class="imges">
+                            <img src="assets/img/team/4.jpg" alt="team">
+                            <ul class="social">
+                                <li>
+                                    <a href="#" target="_blank">
+                                        <i class="fa-brands fa-twitter"></i>
+
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" target="_blank">
+                                        <i class="fa-brands fa-instagram"></i>
+
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" target="_blank">
+                                        <i class="fa-brands fa-facebook"></i>
+
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="team-content">
+                            <div class="team-content">
+                                <h3>Emma Wilson</h3>
+                                <span>Movie Director</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="team-img">
+                    <div class="col">
+                        <div class="imges">
+                            <img src="assets/img/team/5.jpg" alt="team">
+                            <ul class="social">
+                                <li>
+                                    <a href="#" target="_blank">
+                                        <i class="fa-brands fa-twitter"></i>
+
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" target="_blank">
+                                        <i class="fa-brands fa-instagram"></i>
+
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" target="_blank">
+                                        <i class="fa-brands fa-facebook"></i>
+
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="team-content">
+                            <div class="team-content">
+                                <h3>Phyllis Trimble</h3>
+                                <span>Director, Producer</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+    </section>
+
+    <div class="partner  ptb-100">
+      <div class="container ">
+  <div class="image-wrapper">
+        <div class="partner-item">
+              <a href="#">
+                <img src="assets/img/partner-logo/1.png" alt="Image" />
+              </a>
+            </div>
+    
+    <div class="partner-item">
+              <a href="#">
+                <img src="assets/img/partner-logo/2.png" alt="Image" />
+              </a>
+            </div>
+          <div class="partner-item">
+              <a href="#">
+                <img src="assets/img/partner-logo/3.png" alt="Image" />
+              </a>
+            </div>
+         <div class="partner-item">
+              <a href="#">
+                <img src="assets/img/partner-logo/4.png" alt="Image" />
+              </a>
+            </div>
+       <div class="partner-item">
+              <a href="#">
+                <img src="assets/img/partner-logo/5.png" alt="Image" />
+              </a>
+            </div>
+    <div class="partner-item">
+              <a href="#">
+                <img src="assets/img/partner-logo/6.png" alt="Image" />
+              </a>
+            </div>
+
+</div>
+        
+      </div>
+    </div>
+
+    <section class="blog ptb-100">
+        <div class="container">
+
+            <div class="section-title">
+                <span class="top-title">News Feeds</span>
+                <h2>Get The Latest News</h2>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-blog">
+                        <a href="blog-details.html">
+                            <img src="assets/img/blog/1.jpg" alt="Image">
+                        </a>
+
+                        <div class="blog-content">
+                            <ul>
+                                <li>
+                                    <i class="fa-regular fa-user"></i>
+                                    <a href="#">Admin</a>
+                                </li>
+
+                                <li>
+                                    <i class="fa-regular fa-calendar-plus"></i>
+                                    17/07/2020
+                                </li>
+                            </ul>
+
+                            <a href="blog-details.html">
+                                <h3>Video Production Services Your Business Must Have</h3>
+                            </a>
+
+                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut
+                                labore
+                                dolore magna aliqua sit amet consectetur.</p>
+
+                            <a href="blog-details.html" class="read-more">
+                                Learn More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-blog">
+                        <a href="blog-details.html">
+                            <img src="assets/img/blog/2.jpg" alt="Image">
+                        </a>
+
+                        <div class="blog-content">
+                            <ul>
+                                <li>
+                                    <i class="fa-regular fa-user"></i>
+                                    <a href="#">Admin</a>
+                                </li>
+
+                                <li>
+                                    <i class="fa-regular fa-calendar-plus"></i>
+                                    18/07/2020
+                                </li>
+                            </ul>
+
+                            <a href="blog-details.html">
+                                <h3>Why You Need To Hire top class Video Production company</h3>
+                            </a>
+
+                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut
+                                labore
+                                dolore magna aliqua sit amet consectetur.</p>
+
+                            <a href="blog-details.html" class="read-more">
+                                Learn More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0">
+                    <div class="single-blog">
+                        <a href="blog-details.html">
+                            <img src="assets/img/blog/3.jpg" alt="Image">
+                        </a>
+
+                        <div class="blog-content">
+                            <ul>
+                                <li>
+                                    <i class="fa-regular fa-user"></i>
+                                    <a href="#">By Admin</a>
+                                </li>
+
+                                <li>
+                                    <i class="fa-regular fa-calendar-plus"></i>
+                                    19/07/2020
+                                </li>
+                            </ul>
+
+                            <a href="blog-details.html">
+                                <h3>Choosing A Video Location For Your Next Project</h3>
+                            </a>
+
+                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut
+                                labore
+                                dolore magna aliqua sit amet consectetur.</p>
+
+                            <a href="blog-details.html" class="read-more">
+                                Learn More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer ptb-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="single-widget">
+                        <img src="assets/img/footer/footer-logo.png" alt="Image">
+
+                        <div class="newsletter-wrap">
+                            <h3>Subscribe Newsletter</h3>
+                            <form class="newsletter-form" data-toggle="validator" novalidate="true">
+                                <input type="email" class="form-control" placeholder="Enter email address" name="EMAIL"
+                                    required="" autocomplete="off" fdprocessedid="5bj70s">
+
+                                <button class="send-btn disabled" type="submit"
+                                    style="pointer-events: all; cursor: pointer;" fdprocessedid="oogynq">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </button>
+
+                                <div id="validator-newsletter-2" class="validation-danger">Please enter your email
+                                    correctly.</div>
+                            </form>
+                        </div>
+
+                        <ul class="social-wrap">
+                            <li>
+                                <a href="#" target="_blank">
+                                    <i class="fa-brands fa-twitter"></i>
+
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" target="_blank">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" target="_blank">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" target="_blank">
+                                    <i class="fa-brands fa-youtube"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="single-widget">
+                        <h3>Contact Us</h3>
+
+                        <ul class="address">
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                6890 Blvd, The Bronx, NY 1058 New York, USA
+                            </li>
+
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                <a href="mailto:hello@vidnext.com">
+                                    hello@vidnext.com
+                                </a>
+
+                                <a href="#">
+                                    Skype: example
+                                </a>
+                            </li>
+
+                            <li>
+                                <i class="fa-solid fa-phone"></i>
+                                <a href="tel:+1-587-785-4578">
+                                    +1 587 785 4578
+                                </a>
+
+                                <a href="tel:+1-485-456-0102">
+                                    +1 485 456 0102
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="single-widget">
+                        <h3>Additional Links</h3>
+
+                        <ul class="additional-link">
+                            <li>
+                                <a href="#">About</a>
+                            </li>
+                            <li>
+                                <a href="#">Latest Videos</a>
+                            </li>
+                            <li>
+                                <a href="#">Team</a>
+                            </li>
+                            <li>
+                                <a href="#">Help (FAQ)</a>
+                            </li>
+                            <li>
+                                <a href="#">Contacts</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="single-widget">
+                        <h3>Instagram</h3>
+
+                        <ul class="instagram">
+                            <li>
+                                <a href="#">
+                                    <img src="assets/img/footer/1.jpg" alt="Image">
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    <img src="assets/img/footer/2.jpg" alt="Image">
+                                </a>
+                            </li>
+                            <li class="mr-0">
+                                <a href="#">
+                                    <img src="assets/img/footer/3.jpg" alt="Image">
+                                </a>
+                            </li>
+                            <li class="mb-0">
+                                <a href="#">
+                                    <img src="assets/img/footer/4.jpg" alt="Image">
+                                </a>
+                            </li>
+                            <li class="mb-0">
+                                <a href="#">
+                                    <img src="assets/img/footer/5.jpg" alt="Image">
+                                </a>
+                            </li>
+                            <li class="mr-0 mb-0">
+                                <a href="#">
+                                    <img src="assets/img/footer/6.jpg" alt="Image">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="footer-bottom">
+        <div class="container">
+            <div class="copyright">
+                <p> &#169; VidNext is Proudly Owned by <a href="https://envytheme.com/" target="_blank">EnvyTheme</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="vendeor/bootsrtap/bootstrap.bundle.js"> </script>
+    <script src="./vendeor/mySlider/mySlider.js"></script>
+
+
+</body>
+
+</html>
